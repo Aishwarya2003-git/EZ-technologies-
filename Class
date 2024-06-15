@@ -1,0 +1,11 @@
+class demo:
+    def __init__(self,a,b):
+        self.a1=a
+        self.b1=b
+    def sum(self,a,b):
+        sum=a+b
+        print(sum)
+        print(self.a1-self.b1)
+if __name__=='__main__':
+        c1=demo(10,10)
+        c1.sum(10,10
