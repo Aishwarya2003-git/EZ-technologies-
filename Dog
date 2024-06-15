@@ -1,0 +1,3 @@
+n=int(input())
+human_years=n*7
+print(human_years)
