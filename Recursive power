@@ -1,0 +1,11 @@
+def p(n,m):
+    if m==0:
+        return 1
+    else:
+        return(n*p(n,m-1))
+        return(m*p(m,n-1))
+if __name__=='__main__':
+    n=int(input())
+    m=int(input())
+    print(p(n,m))
+    print(p(m,n))
