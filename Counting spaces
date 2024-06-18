@@ -1,0 +1,9 @@
+def count(string):
+    count=0
+    for i in  string:
+        if i==" ":
+            count+=1
+            print(count)
+    return count
+string="hello world"
+print(count(string))
